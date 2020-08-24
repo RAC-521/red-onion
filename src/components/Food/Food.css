@@ -1,0 +1,16 @@
+.card{
+    float: left;
+    margin: 2px;
+    padding: 5px;
+    height: 350px;
+    width: 250px;
+}
+.card:hover{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px grey;
+}
+.card-image img{
+    height: 180px;
+    width: 180px;
+}
