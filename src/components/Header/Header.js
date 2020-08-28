@@ -19,6 +19,13 @@ const Header = () => {
                     <button>Search</button>
                 </div>
             </div>
+            <div className="mid-bar">
+                <nav>
+                    <a href="/breakfast">Breakfast</a>
+                    <a href="/lunch">Lunch</a>
+                    <a href="/dinner">Dinner</a>
+                </nav>
+            </div>
         </div>
     );
 };

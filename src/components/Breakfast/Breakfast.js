@@ -1,13 +1,11 @@
 import React, { useState } from 'react';
 // import 'bootstrap/dist/css/bootstrap.css';
-import './FoodSection.css';
+import './Breakfast.css';
 import fakeData from '../../fakeData';
 import Food from '../Food/Food';
 
-const FoodSection = () => {
+const Breakfast = () => {
     const breakfastItems = fakeData.filter( item => item.category === 'breakfastItem');
-    const lunchItems = fakeData.filter( item => item.category === 'lunchItem');
-    const dinnerItems = fakeData.filter( item => item.category === 'dinnerItem');
     // const [breakfast, setBreakfast] = useState(breakfastItems);
     // const [lunch, setLunch] = useState(lunchItems);
     // const [dinner, setDinner] = useState(dinnerItems);
@@ -26,4 +24,4 @@ const FoodSection = () => {
     );
 };
 
-export default FoodSection;
+export default Breakfast;
